@@ -6,6 +6,8 @@ KentProjects was a final year project undertaken by [James Dryden](http://jdrydn
 [Matthew House](http://matthewhou.se) and [Matthew Weeks](http://matt.weeks.codes) over the course of our fourth year
 at the [University Of Kent](http://cs.kent.ac.uk).
 
+![A screenshot of the KentProjects homepage](/img/10-homepage.png)
+
 ### Description
 
 KentProjects aims to build upon, and improve the current system that final year students use to choose their projects.
@@ -16,6 +18,8 @@ until the start of the new year. It was designed to run in two halves; a front-e
 & Flat UI for the end-user and a back-end API for the website to interact with, written in PHP and using a MySQL
 database with a sophisticated layer of caching, using Memcached, to improve performance.
 
+![A screenshot of the student's profile editing tags](/img/22-Student-Tags.png)
+
 ### Review
 
 We have managed to create a simple, but powerful, web application that enables staff and students to interact with a
@@ -25,6 +29,8 @@ lists of projects, add new projects and keep track of students and the groups th
 to view all the projects that are available to them, they can create and join groups with other students and then
 request to do a project that appeals to them. The solution is completely web based and mobile-optimised, enabling
 students to organise and select their projects remotely and on their smartphones and tablets if desired!
+
+![A screenshot of the student's dashboard](/img/18-Student-Dashboard.png)
 
 ### And More...
 

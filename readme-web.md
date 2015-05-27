@@ -2,15 +2,10 @@
 layout: default
 ---
 
----
-layout: content
-root: ..
-title: KentProjects Web App README
----
-
-## How KentProjects is built
-
 ### Two components, one system
+
+![A screenshot of the convenor's dashboard](/img/12-Convenor-top.png)
+
 KentProjects was built as 2 discrete and functionally independent components; a web app (built in HTML, JS, & CSS) and
 an API (built in PHP). The two are completely decoupled and, assuming the API specifications were matched exactly,
 either could be replaced. This README focuses on the Web App, and assumes that the API has been installed and set up
@@ -56,10 +51,30 @@ Within `public/` we have the following:
 - `ajax.php` - Provides a JavaScript-accessible interface for making API requests through `API.php`
 - Various user-accessible pages - `dashboard.php`, `intents.php`, `profile.php`, etc.
 
-## Vagrant
+### Vagrant
 
-For developers with [Vagrant (External Link)](https://vagrantup.com) installed, a virtual machine pre-configured for the
+For developers with [Vagrant](https://vagrantup.com) installed, a virtual machine pre-configured for the
 web app can be easily created by navigating to the root of this repository and running `vagrant up` - this will create
 and configure a KentProjects Web App virtual machine, which can be accessed by opening `http://localhost:8080` in a
 browser. This environment will (by default) use the KentProjects Development API, which (in theory) will be working off
 the same sample data as the KentProjects API.
+
+## Screenshots
+
+![A screenshot](/img/13-Convenor-bottom.png)
+
+![A screenshot](/img/11-SSO.png)
+
+![A screenshot](/img/14-Convenor-students.png)
+
+![A screenshot](/img/15-Convenor-profile.png)
+
+![A screenshot](/img/16-Editor.png)
+
+![A screenshot](/img/17-Profile-Comments.png)
+
+![A screenshot](/img/19-Student-Profile.png)
+
+![A screenshot](/img/20-Student-Staff-Profile.png)
+
+![A screenshot](/img/21-Student-Notifications.png)
